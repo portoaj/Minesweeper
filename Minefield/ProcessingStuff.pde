@@ -2,8 +2,10 @@ int size = 100;
 Tile [][] tiles;
 int realTiles = 0;
 boolean gameOn = true;
+Input input;
 void setup()
 {
+  input = new Input();
   textSize(size);
   tiles = new Tile[width/size][height/size];
   for(int i = 0; i < tiles.length; i++)
@@ -98,7 +100,14 @@ boolean withinBounds(int _i, int _j)
 }
 void draw()
 {
-  
+  if(mousePressed)
+  {
+    println("test2");
+  }
+  else
+  {
+    
+  }
     for(int i = 0; i < tiles.length; i++)
     {
       for(int j = 0; j < tiles[i].length; j++)
@@ -125,27 +134,9 @@ void gameEnd()
 }
 void mouseClicked()
 {
-  if(mouseButton == LEFT  && gameOn)
-  {
-    PVector mousePos = new PVector(mouseX, mouseY);
-    PVector closestTile = new PVector(0,0);
-    float closestDist = PVector.dist(tiles[0][0].getPos(), mousePos);
-    for(int i = 0; i < tiles.length; i++)
-    {
-      for(int j = 0; j < tiles[i].length; j++)
-      {
-        float currentDist = PVector.dist(tiles[i][j].getPos(), mousePos);
-        if(currentDist < closestDist)
-        {
-          closestTile = new PVector(i,j);
-          closestDist = currentDist;
-        }
-      }
-    }
-    checkWin();
-    reveal((int)closestTile.x, (int)closestTile.y, (tiles[(int)closestTile.x][(int)closestTile.y].getNearbyBombs() == 0));
-  }
-  else if (mouseButton == RIGHT && gameOn)
+  println("rip");
+  input.setTap(true);
+  if (input.getLongTap() && gameOn)
   {
     PVector mousePos = new PVector(mouseX, mouseY);
     PVector closestTile = new PVector(0,0);
@@ -165,6 +156,37 @@ void mouseClicked()
     if(!tiles[(int)closestTile.x][(int)closestTile.y].getIsShowing())
     tiles[(int)closestTile.x][(int)closestTile.y].toggleBombMarker();
   }
+  else if(gameOn)//
+  {
+    PVector mousePos = new PVector(mouseX, mouseY);
+    PVector closestTile = new PVector(0,0);
+    float closestDist = PVector.dist(tiles[0][0].getPos(), mousePos);
+    for(int i = 0; i < tiles.length; i++)
+    {
+      for(int j = 0; j < tiles[i].length; j++)
+      {
+        float currentDist = PVector.dist(tiles[i][j].getPos(), mousePos);
+        if(currentDist < closestDist)
+        {
+          closestTile = new PVector(i,j);
+          closestDist = currentDist;
+        }
+      }
+    }
+    checkWin();
+    reveal((int)closestTile.x, (int)closestTile.y, (tiles[(int)closestTile.x][(int)closestTile.y].getNearbyBombs() == 0));
+    println("rip");
+  }
+  
+}
+void mouseReleased()
+{
+  input.setTap(false);
+  input.setLongTap(false);
+}
+void mouseDragged()
+{
+  input.setLongTap(true);
 }
 void reveal(int i, int j, boolean revealAdjacent)
 {
