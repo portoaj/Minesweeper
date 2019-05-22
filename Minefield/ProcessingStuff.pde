@@ -3,6 +3,12 @@ Tile [][] tiles;
 int realTiles = 0;
 boolean gameOn = true;
 Input input;
+int framesHeld = 0;
+boolean cf = false;
+boolean onef = false;
+boolean twof = false;
+boolean resetVar = true;
+int resetFrames = 0;
 void setup()
 {
   input = new Input();
@@ -74,7 +80,6 @@ void checkWin()
       if(tiles[i][j].revealedAsReal())
       {
         tilesRevealed++;
-        println("k");
       }
     }
   }
@@ -100,14 +105,44 @@ boolean withinBounds(int _i, int _j)
 }
 void draw()
 {
-  if(mousePressed)
+  if(!gameOn)
   {
-    println("test2");
+    resetFrames++;
+    if(resetFrames >= 200)
+    {
+      resetFrames = 0;
+      gameOn = true;
+      start();
+      println("restarted");
+    }
   }
-  else
+  cf = mousePressed;
+  println(cf);
+  if(onef && !(cf || twof) && resetVar)
   {
+    input.setTap(true);
+    input.setLongTap(false);
+    resetVar = false;
+  }
+  else if(twof && onef && resetVar)
+  {
+    input.setTap(false);
+    input.setLongTap(true);
+    resetVar = false;
+  }
+  else if(!cf && !onef && !twof)
+  {
+    input.setTap(false);
+    input.setLongTap(false);
+    resetVar = true;
+  }
+  if(!cf)
+    resetVar = true;
     
-  }
+  twof = onef;
+  onef = cf;
+  
+  
     for(int i = 0; i < tiles.length; i++)
     {
       for(int j = 0; j < tiles[i].length; j++)
@@ -120,22 +155,6 @@ void draw()
       textSize(300);
       text("You Lose :(",0, height);
     }
-  
-}
-void gameEnd()
-{
-   for(int i = 0; i < tiles.length; i++)
-    {
-      for(int j = 0; j < tiles[i].length; j++)
-      {
-        tiles[i][j].reveal();
-      }
-    }
-}
-void mouseClicked()
-{
-  println("rip");
-  input.setTap(true);
   if (input.getLongTap() && gameOn)
   {
     PVector mousePos = new PVector(mouseX, mouseY);
@@ -156,7 +175,7 @@ void mouseClicked()
     if(!tiles[(int)closestTile.x][(int)closestTile.y].getIsShowing())
     tiles[(int)closestTile.x][(int)closestTile.y].toggleBombMarker();
   }
-  else if(gameOn)//
+  else if(gameOn && input.getTap())//
   {
     PVector mousePos = new PVector(mouseX, mouseY);
     PVector closestTile = new PVector(0,0);
@@ -175,9 +194,18 @@ void mouseClicked()
     }
     checkWin();
     reveal((int)closestTile.x, (int)closestTile.y, (tiles[(int)closestTile.x][(int)closestTile.y].getNearbyBombs() == 0));
-    println("rip");
   }
   
+}
+void gameEnd()
+{
+   for(int i = 0; i < tiles.length; i++)
+    {
+      for(int j = 0; j < tiles[i].length; j++)
+      {
+        tiles[i][j].reveal();
+      }
+    }
 }
 void mouseReleased()
 {
@@ -270,5 +298,5 @@ void reveal(int i, int j, boolean revealAdjacent)
 }
 public void settings()
 {
-  size(1600,1600);
+  fullScreen();
 }
