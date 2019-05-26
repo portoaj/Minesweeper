@@ -19,6 +19,10 @@ class Tile{
   {
     return (isShowing && !isBomb);
   }
+  PVector getLocalPos()
+  {
+    return new PVector(x,y);
+  }
   void showTile()
   { 
     if(bombMarker)

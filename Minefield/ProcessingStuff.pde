@@ -7,6 +7,8 @@ int framesHeld = 0;
 boolean cf = false;
 boolean onef = false;
 boolean twof = false;
+boolean threef = false;
+boolean resetVar2 = false;
 boolean resetVar = true;
 int resetFrames = 0;
 void setup()
@@ -25,7 +27,7 @@ void setup()
   {
     for(int j = 0; j < tiles[i].length; j++)
     {
-      if(floor(random(6)) == 0)
+      if(floor(random(8)) == 0)
       {
         tiles[i][j].setAsBomb();
         //Check first column for nearby tiles
@@ -105,43 +107,53 @@ boolean withinBounds(int _i, int _j)
 }
 void draw()
 {
+  background(0);
+  /*for(int i = 0; i < tiles.length; i++)
+  {
+    for(int j = 0; j < tiles[i].length; j++)
+    {
+      text(i + ", " + j, tiles[i][j].getLocalPos().x, tiles[i][j].getLocalPos().y);
+    }
+  }*/
   if(!gameOn)
   {
+    println("waiting to restart");
     resetFrames++;
-    if(resetFrames >= 200)
+    if(resetFrames >= 40)
     {
       resetFrames = 0;
       gameOn = true;
-      start();
       println("restarted");
+      setup();
+
     }
   }
   cf = mousePressed;
-  println(cf);
-  if(onef && !(cf || twof) && resetVar)
+  println(cf + " " + resetVar + " " + gameOn);
+  if(onef && (!(cf || twof)) && resetVar)
   {
     input.setTap(true);
     input.setLongTap(false);
     resetVar = false;
+    resetVar2 = false;
   }
-  else if(twof && onef && resetVar)
+  else if(threef && twof && onef && resetVar)
   {
     input.setTap(false);
     input.setLongTap(true);
     resetVar = false;
+    resetVar2 = false;
   }
-  else if(!cf && !onef && !twof)
+  else
   {
     input.setTap(false);
     input.setLongTap(false);
-    resetVar = true;
+    resetVar2 = true;
   }
-  if(!cf)
-    resetVar = true;
-    
+  threef = twof;
   twof = onef;
   onef = cf;
-  
+  resetVar = resetVar2;
   
     for(int i = 0; i < tiles.length; i++)
     {
@@ -207,15 +219,7 @@ void gameEnd()
       }
     }
 }
-void mouseReleased()
-{
-  input.setTap(false);
-  input.setLongTap(false);
-}
-void mouseDragged()
-{
-  input.setLongTap(true);
-}
+
 void reveal(int i, int j, boolean revealAdjacent)
 {
   if(tiles[i][j].isBomb)
@@ -268,7 +272,8 @@ void reveal(int i, int j, boolean revealAdjacent)
         if(withinBounds(i, j + 1) && tiles[i][j+1].getNearbyBombs() == 0 && !tiles[i][j+1].isShowing)
         {
           reveal(i, j +1, true);
-        }else if(withinBounds(i, j + 1) && !tiles[i][j+1].isShowing)
+        }
+        else if(withinBounds(i, j + 1) && !tiles[i][j+1].isShowing)
         {
           reveal(i, j +1, false);
         }
@@ -276,21 +281,24 @@ void reveal(int i, int j, boolean revealAdjacent)
         if(withinBounds(i + 1, j - 1) && tiles[i+1][j-1].getNearbyBombs() == 0 && !tiles[i+1][j-1].isShowing)
         {
           reveal(i+1, j -1, true);
-        }else if(withinBounds(i+1, j - 1) && !tiles[i+1][j-1].isShowing)
+        }
+        else if(withinBounds(i+1, j - 1) && !tiles[i+1][j-1].isShowing)
         {
           reveal(i+1, j -1, false);
         }
         if(withinBounds(i + 1, j) && tiles[i+1][j].getNearbyBombs() == 0 && !tiles[i+1][j].isShowing)
         {
           reveal(i+1, j, true);
-        }else if(withinBounds(i+1, j) && !tiles[i+1][j].isShowing)
+        }
+        else if(withinBounds(i+1, j) && !tiles[i+1][j].isShowing)
         {
           reveal(i+1, j , false);
         }
         if(withinBounds(i + 1, j + 1) && tiles[i+1][j+1].getNearbyBombs() == 0 && !tiles[i+1][j+1].isShowing)
         {
           reveal(i+1, j+1, true);
-        }else if(withinBounds(i+1, j +1) && !tiles[i+1][j+1].isShowing)
+        }
+        else if(withinBounds(i+1, j +1) && !tiles[i+1][j+1].isShowing)
         {
           reveal(i+1, j +1, false);
         }
