@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/d90b60b863331004afce3dd7dd7f2905/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/ea555c5bc32fd365213255e167fff1e7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/22a2c807c5b3d6ef88089c5bfa1f9f71/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/b3f5adc22868725f14bb6d1999fc68d4/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/608558c0f927649879387c26ba2a683f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/7f093762452aba63bf7cd2a355c47d4f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:percent:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/eaa7fd832d61d370f31f41712979e801/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/f8f3970546d07eee19e2b5005016cb55/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/c8197e971a695f9e8e3a6a17118bf4a1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/dd024df32687a3b5515a63fd706f9069/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/7e429178db86ecbc79c96dff6d893dcf/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7e3e85f973802530a4d9432af3b18647/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:120-146
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:94-119
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:2:70-93
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:3:5-73
+MERGED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/d90b60b863331004afce3dd7dd7f2905/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/d90b60b863331004afce3dd7dd7f2905/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/ea555c5bc32fd365213255e167fff1e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/ea555c5bc32fd365213255e167fff1e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/22a2c807c5b3d6ef88089c5bfa1f9f71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/22a2c807c5b3d6ef88089c5bfa1f9f71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/b3f5adc22868725f14bb6d1999fc68d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/b3f5adc22868725f14bb6d1999fc68d4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/608558c0f927649879387c26ba2a683f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/608558c0f927649879387c26ba2a683f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/7f093762452aba63bf7cd2a355c47d4f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/7f093762452aba63bf7cd2a355c47d4f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:percent:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/eaa7fd832d61d370f31f41712979e801/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/eaa7fd832d61d370f31f41712979e801/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/f8f3970546d07eee19e2b5005016cb55/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/f8f3970546d07eee19e2b5005016cb55/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/c8197e971a695f9e8e3a6a17118bf4a1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/c8197e971a695f9e8e3a6a17118bf4a1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/dd024df32687a3b5515a63fd706f9069/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/dd024df32687a3b5515a63fd706f9069/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/7e429178db86ecbc79c96dff6d893dcf/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/7e429178db86ecbc79c96dff6d893dcf/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7e3e85f973802530a4d9432af3b18647/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7e3e85f973802530a4d9432af3b18647/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:3:5-73
+INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:3:5-73
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:3:42-71
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:3:15-41
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:4:5-11:19
+MERGED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/d90b60b863331004afce3dd7dd7f2905/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/d90b60b863331004afce3dd7dd7f2905/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:9:5-13:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/ea555c5bc32fd365213255e167fff1e7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/ea555c5bc32fd365213255e167fff1e7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/22a2c807c5b3d6ef88089c5bfa1f9f71/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/22a2c807c5b3d6ef88089c5bfa1f9f71/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/b3f5adc22868725f14bb6d1999fc68d4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/b3f5adc22868725f14bb6d1999fc68d4/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/608558c0f927649879387c26ba2a683f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/608558c0f927649879387c26ba2a683f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/7f093762452aba63bf7cd2a355c47d4f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/7f093762452aba63bf7cd2a355c47d4f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:percent:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/eaa7fd832d61d370f31f41712979e801/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:percent:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/eaa7fd832d61d370f31f41712979e801/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/f8f3970546d07eee19e2b5005016cb55/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/f8f3970546d07eee19e2b5005016cb55/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/c8197e971a695f9e8e3a6a17118bf4a1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/c8197e971a695f9e8e3a6a17118bf4a1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/dd024df32687a3b5515a63fd706f9069/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/dd024df32687a3b5515a63fd706f9069/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/7e429178db86ecbc79c96dff6d893dcf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/7e429178db86ecbc79c96dff6d893dcf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7e3e85f973802530a4d9432af3b18647/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7e3e85f973802530a4d9432af3b18647/AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:4:48-73
+	android:icon
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:4:18-47
+activity#com.aminefieldbc.MainActivity
+ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:5:9-10:20
+	android:theme
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:5:64-131
+	android:name
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:5:19-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:6:13-9:29
+action#android.intent.action.MAIN
+ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:7:17-68
+	android:name
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:7:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:8:17-76
+	android:name
+		ADDED from /Users/league/Desktop/Minesweeper/Minefield/android/app/src/main/AndroidManifest.xml:8:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/d90b60b863331004afce3dd7dd7f2905/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/d90b60b863331004afce3dd7dd7f2905/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/ea555c5bc32fd365213255e167fff1e7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/ea555c5bc32fd365213255e167fff1e7/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/22a2c807c5b3d6ef88089c5bfa1f9f71/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/22a2c807c5b3d6ef88089c5bfa1f9f71/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/b3f5adc22868725f14bb6d1999fc68d4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/b3f5adc22868725f14bb6d1999fc68d4/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/608558c0f927649879387c26ba2a683f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/608558c0f927649879387c26ba2a683f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/7f093762452aba63bf7cd2a355c47d4f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/7f093762452aba63bf7cd2a355c47d4f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:percent:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/eaa7fd832d61d370f31f41712979e801/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:percent:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/eaa7fd832d61d370f31f41712979e801/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/f8f3970546d07eee19e2b5005016cb55/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/f8f3970546d07eee19e2b5005016cb55/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/c8197e971a695f9e8e3a6a17118bf4a1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/c8197e971a695f9e8e3a6a17118bf4a1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/dd024df32687a3b5515a63fd706f9069/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/dd024df32687a3b5515a63fd706f9069/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/7e429178db86ecbc79c96dff6d893dcf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/7e429178db86ecbc79c96dff6d893dcf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7e3e85f973802530a4d9432af3b18647/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/7e3e85f973802530a4d9432af3b18647/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.2] /Users/league/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/2cf0f595cc326a0c1537f30026ca032d/AndroidManifest.xml:27:13-51
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.google.android.support:wearable:2.1.0] /Users/league/.gradle/caches/transforms-1/files-1.1/wearable-2.1.0.aar/41c06f00d60d9785630a0b78756cd7d5/AndroidManifest.xml:11:13-55

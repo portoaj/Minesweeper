@@ -1,0 +1,4 @@
+#Sun Jun 16 15:12:33 PDT 2019
+base.0=/Users/league/Desktop/Minesweeper/Minefield/android/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex
